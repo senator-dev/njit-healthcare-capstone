@@ -51,3 +51,4 @@ data['bucket'] = np.random.permutation(data.shape[0]) % n_buckets
 
 for bucket in data['bucket'].unique():
     data[data['bucket'] == bucket].to_csv(f'csvs/{bucket}.csv')
+
