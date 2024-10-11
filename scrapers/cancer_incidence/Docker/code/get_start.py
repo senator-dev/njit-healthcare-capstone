@@ -46,8 +46,7 @@ data['code.age_group'] = data['age_group'].apply(lambda x: age_group_name_values
 data['code.ethnicity'] = data['ethnicity'].apply(lambda x: ethnicity_name_values[x])
 data['code.race'] = data['race'].apply(lambda x: race_name_values[x])
 data['code.cancer_site'] = data['cancer_site'].apply(lambda x: cancer_site_name_values[x])
-data = data.sample(20)
-n_buckets = int(data.shape[0] / 5)
+n_buckets = int(data.shape[0] / 47)
 data['bucket'] = np.random.permutation(data.shape[0]) % n_buckets
 
 for bucket in data['bucket'].unique():
