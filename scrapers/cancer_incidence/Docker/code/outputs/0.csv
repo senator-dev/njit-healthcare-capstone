@@ -1,0 +1,6 @@
+,Unnamed: 0,msa,year,sex,age_group,ethnicity,race,cancer_site,bucket,count
+0,2395175,"San Diego-Carlsbad, CA",2007,Female,1-4 years,Hispanic,Black or African American,Lung and Bronchus,0,0
+1,1200131,"Kansas City, MO-KS",2016,Male,40-44 years,Non-Hispanic,American Indian or Alaska Native,Lung and Bronchus,0,0
+2,1202830,"Kansas City, MO-KS",2019,Female,15-19 years,Non-Hispanic,American Indian or Alaska Native,Gallbladder,0,0
+3,1511545,"Memphis, TN-MS-AR",2013,Male,70-74 years,Unknown or Missing,Black or African American,Lung and Bronchus,0,0
+4,257983,"Baton Rouge, LA",2018,Female,50-54 years,Non-Hispanic,Asian or Pacific Islander,Lung and Bronchus,0,0
