@@ -68,7 +68,7 @@ def download_multiple(bucket):
 
 buckets  = [int(file.split('.')[0]) for file in os.listdir('csvs')]
 
-with ThreadPoolExecutor(max_workers=5) as executor:
+with ThreadPoolExecutor(max_workers=48) as executor:
     futures = {executor.submit(download_multiple, bucket): bucket for bucket in buckets}
     for future in as_completed(futures):
         bucket = futures[future]
