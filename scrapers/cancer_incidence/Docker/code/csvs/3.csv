@@ -1,6 +1,0 @@
-,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket
-1744864,"North Port-Sarasota-Bradenton, FL",2011,Male,10-14 years,Hispanic,Black or African American,Gallbladder,35840,2011,M,10-14,2135-2,2054-5,21080,3
-535945,"Cincinnati, OH-KY-IN",2009,Female,15-19 years,Unknown or Missing,Black or African American,Lung and Bronchus,17140,2009,F,15-19,UNK,2054-5,22030,3
-368054,"Buffalo-Cheektowaga-Niagara Falls, NY",1999,Male,60-64 years,Non-Hispanic,Black or African American,Gallbladder,15380,1999,M,60-64,2186-5,2054-5,21080,3
-729961,"Deltona-Daytona Beach-Ormond Beach, FL",2018,Female,55-59 years,Hispanic,American Indian or Alaska Native,Lung and Bronchus,19660,2018,F,55-59,2135-2,1002-5,22030,3
-2726389,"Tulsa, OK",2021,Male,5-9 years,Non-Hispanic,Other Races and Unknown combined,Lung and Bronchus,46140,2021,M,5-9,2186-5,2131-1,22030,3

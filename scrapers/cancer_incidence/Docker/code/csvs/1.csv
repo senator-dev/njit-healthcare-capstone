@@ -1,6 +1,0 @@
-,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket
-2678858,"Tucson, AZ",2002,Male,65-69 years,Hispanic,Other Races and Unknown combined,Gallbladder,46060,2002,M,65-69,2135-2,2131-1,21080,1
-2167927,"Raleigh, NC",2014,Male,30-34 years,Hispanic,White,Lung and Bronchus,39580,2014,M,30-34,2135-2,2106-3,22030,1
-1253839,"Knoxville, TN",2017,Male,60-64 years,Non-Hispanic,Other Races and Unknown combined,Lung and Bronchus,28940,2017,M,60-64,2186-5,2131-1,22030,1
-2822387,"Wichita, KS",2013,Male,45-49 years,Non-Hispanic,White,Lung and Bronchus,48620,2013,M,45-49,2186-5,2106-3,22030,1
-2156895,"Raleigh, NC",2005,Female,< 1 year,Non-Hispanic,Black or African American,Lung and Bronchus,39580,2005,F,1,2186-5,2054-5,22030,1

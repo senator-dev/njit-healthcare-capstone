@@ -1,6 +1,0 @@
-,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket
-502946,"Chicago-Naperville-Elgin, IL-IN-WI",2003,Female,25-29 years,Unknown or Missing,White,Gallbladder,16980,2003,F,25-29,UNK,2106-3,21080,2
-266608,"Birmingham-Hoover, AL",2002,Male,60-64 years,Unknown or Missing,Other Races and Unknown combined,Gallbladder,13820,2002,M,60-64,UNK,2131-1,21080,2
-694071,"Dayton-Kettering, OH",2009,Male,55-59 years,Unknown or Missing,American Indian or Alaska Native,Lung and Bronchus,19430,2009,M,55-59,UNK,1002-5,22030,2
-1143346,"Jackson, MS",2012,Male,75-79 years,Non-Hispanic,White,Gallbladder,27140,2012,M,75-79,2186-5,2106-3,21080,2
-2586498,"Stockton-Lodi, CA",2013,Male,60-64 years,Non-Hispanic,Other Races and Unknown combined,Gallbladder,44700,2013,M,60-64,2186-5,2131-1,21080,2
