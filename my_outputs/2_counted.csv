@@ -1,0 +1,6 @@
+,Unnamed: 0,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket,count
+0,883256,"Washington-Arlington-Alexandria, DC-VA-MD-WV",2014,Female,85+ years,Unknown or Missing,Asian or Pacific Islander,Gallbladder,47900,2014,F,85+,UNK,A-PI,21080,2,0
+1,460446,"Madison, WI",2013,Female,30-34 years,Non-Hispanic,Asian or Pacific Islander,Gallbladder,31540,2013,F,30-34,2186-5,A-PI,21080,2,0
+2,154266,"Chattanooga, TN-GA",2013,Male,30-34 years,Non-Hispanic,Asian or Pacific Islander,Gallbladder,16860,2013,M,30-34,2186-5,A-PI,21080,2,0
+3,15698,"Albany-Schenectady-Troy, NY",2019,Male,40-44 years,Non-Hispanic,White,Gallbladder,10580,2019,M,40-44,2186-5,2106-3,21080,2,0
+4,78490,"Baton Rouge, LA",2010,Female,30-34 years,Unknown or Missing,American Indian or Alaska Native,Gallbladder,12940,2010,F,30-34,UNK,1002-5,21080,2,0

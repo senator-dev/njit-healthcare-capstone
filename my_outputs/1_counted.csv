@@ -1,0 +1,6 @@
+,Unnamed: 0,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket,count
+0,366077,"Jacksonville, FL",2003,Male,75-79 years,Hispanic,Black or African American,Gallbladder,27260,2003,M,75-79,2135-2,2054-5,21080,1,0
+1,315762,"Harrisburg-Carlisle, PA",2002,Female,40-44 years,Unknown or Missing,Black or African American,Gallbladder,25420,2002,F,40-44,UNK,2054-5,21080,1,0
+2,371827,"Jacksonville, FL",2019,Male,70-74 years,Non-Hispanic,Black or African American,Gallbladder,27260,2019,M,70-74,2186-5,2054-5,21080,1,0
+3,60262,"Bakersfield, CA",2005,Female,75-79 years,Non-Hispanic,Black or African American,Gallbladder,12540,2005,F,75-79,2186-5,2054-5,21080,1,0
+4,157832,"Chicago-Naperville-Elgin, IL-IN-WI",2000,Female,80-84 years,Hispanic,Black or African American,Gallbladder,16980,2000,F,80-84,2135-2,2054-5,21080,1,0

@@ -1,5 +1,9 @@
 FROM continuumio/miniconda3
 
+RUN mkdir proj
+
+COPY proj proj
+
 COPY dev-env.yml /tmp/dev-env.yml
 
 RUN conda env create -f /tmp/dev-env.yml

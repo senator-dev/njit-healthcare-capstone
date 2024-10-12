@@ -1,0 +1,6 @@
+,Unnamed: 0,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket,count
+0,36639,"Atlanta-Sandy Springs-Roswell, GA",2008,Male,60-64 years,Non-Hispanic,Other Races and Unknown combined,Gallbladder,12060,2008,M,60-64,2186-5,2131-1,21080,0,0
+1,587406,"Orlando-Kissimmee-Sanford, FL",2020,Male,50-54 years,Non-Hispanic,Asian or Pacific Islander,Gallbladder,36740,2020,M,50-54,2186-5,A-PI,21080,0,0
+2,277623,"Fayetteville-Springdale-Rogers, AR-MO",2011,Female,50-54 years,Hispanic,White,Gallbladder,22220,2011,F,50-54,2135-2,2106-3,21080,0,0
+3,372838,"Kansas City, MO-KS",1999,Male,45-49 years,Unknown or Missing,White,Gallbladder,28140,1999,M,45-49,UNK,2106-3,21080,0,0
+4,393251,"Knoxville, TN",2010,Female,70-74 years,Unknown or Missing,Asian or Pacific Islander,Gallbladder,28940,2010,F,70-74,UNK,A-PI,21080,0,0
