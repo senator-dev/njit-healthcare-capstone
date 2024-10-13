@@ -6,6 +6,8 @@ RUN mkdir proj/csvs
 
 RUN mkdir proj/outputs
 
+RUN mkdir proj/inputs
+
 COPY proj proj
 
 COPY dev-env.yml /tmp/dev-env.yml
