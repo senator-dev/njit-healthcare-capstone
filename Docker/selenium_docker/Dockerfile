@@ -2,6 +2,10 @@ FROM continuumio/miniconda3
 
 RUN mkdir proj
 
+RUN mkdir proj/csvs
+
+RUN mkdir proj/outputs
+
 COPY proj proj
 
 COPY dev-env.yml /tmp/dev-env.yml

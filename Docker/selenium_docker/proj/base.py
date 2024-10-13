@@ -24,7 +24,7 @@ def select_msa_option(driver):
 driver = create_driver()
 driver.get(URL)
 
-print('Getting options . . .')
+print('Getting options . . .', flush=True)
 
 select_msa_option(driver)
 msa_name_values = get_select_options(MSA_SELECT_ID, driver)
@@ -59,7 +59,7 @@ cancer_site_name_values = {"Gallbladder": cancer_site_name_values["Gallbladder"]
 
 data = pd.DataFrame(list(product(msa_name_values, year_name_values, sex_name_values, age_group_name_values, ethnicity_name_values, race_name_values, cancer_site_name_values)), columns=['msa', 'year', 'sex', 'age_group', 'ethnicity', 'race', 'cancer_site'])
 
-print(f'Data created with {data.shape[0]} rows')
+print(f'Data created with {data.shape[0]} rows', flush=True)
 
 data['code.msa'] = data['msa'].apply(lambda x: msa_name_values[x])
 data['code.year'] = data['year'].apply(lambda x: year_name_values[x])
@@ -69,12 +69,12 @@ data['code.ethnicity'] = data['ethnicity'].apply(lambda x: ethnicity_name_values
 data['code.race'] = data['race'].apply(lambda x: race_name_values[x])
 data['code.cancer_site'] = data['cancer_site'].apply(lambda x: cancer_site_name_values[x])
 
-n_buckets = int(data.shape[0] / 10_000)
-data['bucket'] = np.random.permutation(data.shape[0]) % n_buckets
-print(f'There are {data['bucket'].nunique()} buckets')
+n_buckets = int(data.shape[0] / 5_000)
 
+data['bucket'] = np.random.permutation(data.shape[0]) % n_buckets
+print(f'There are {data['bucket'].nunique()} buckets', flush=True)
 
 for bucket in pd.Series(data['bucket'].unique()).sort_values():
     tmp = data[data['bucket'] == bucket]
-    print(f'Writing bucket {bucket} with {tmp.shape[0]} rows')
+    print(f'Writing bucket {bucket} with {tmp.shape[0]} rows', flush=True)
     tmp.to_csv(os.path.join(output_path, f'{bucket}.csv'))

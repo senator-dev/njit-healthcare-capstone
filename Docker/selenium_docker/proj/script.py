@@ -28,8 +28,10 @@ def select_option(select_id, option_value, driver):
 
 
 def one_download(row, driver):
+    
     try:
         msa, year, sex, age_group, ethnicity, race, cancer_site = row
+        print(' | '.join(map(lambda x: f"{str(x)[:8]:>8}", row)), end=' --> ', flush=True)
         select_msa_option(driver)
         select_option(MSA_SELECT_ID, msa, driver)
         select_option(YEAR_SELECT_ID, year, driver)
@@ -48,22 +50,25 @@ def one_download(row, driver):
             count = int(table.find_element(By.TAG_NAME, 'td').text)
 
         driver.get(URL)
+        print('Success \u263a', flush=True)
         return count
     except Exception as error:
+        print(error)
+        print('Failed  \u2639', flush=True)
         return -1
 
 
 def download_multiple(bucket):
-    print(f'Processing bucket {bucket}', end=' ')
+    print(f"{'#' * 40} Processing bucket {bucket} {'#' * 40} ", flush=True)
     try:
         driver = create_driver()
         data = pd.read_csv(os.path.join(inputs_path, f'{bucket}.csv'))
         driver.get(URL)
         data['count'] = data[['code.msa', 'code.year', 'code.sex', 'code.age_group', 'code.ethnicity', 'code.race', 'code.cancer_site']].apply(one_download, driver=driver, axis=1)
         data.to_csv(os.path.join(outputs_path, f'{bucket}_counted.csv'))
-        print('Finished')
+        print(f"{'#' * 40} Finished bucket {bucket} {'#' * 40} ", flush=True)
     except Exception as error:
-        print('Failed')
+        print(f"{'#' * 40} Failed bucket {bucket} {'#' * 40} ", flush=True)
 
 
 buckets = [file.split('.')[0] for file in os.listdir(inputs_path)]
@@ -75,5 +80,5 @@ with ThreadPoolExecutor(max_workers=46) as executor:
         try:
             future.result() 
         except Exception as err:
-            print(f'Bucket {bucket} generated an exception: {err}')
+            print(f'Bucket {bucket} generated an exception: {err}', flush=True)
 

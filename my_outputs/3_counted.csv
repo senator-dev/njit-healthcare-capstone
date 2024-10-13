@@ -1,6 +1,0 @@
-,Unnamed: 0,msa,year,sex,age_group,ethnicity,race,cancer_site,code.msa,code.year,code.sex,code.age_group,code.ethnicity,code.race,code.cancer_site,bucket,count
-0,478179,"Memphis, TN-MS-AR",2016,Female,60-64 years,Non-Hispanic,Other Races and Unknown combined,Gallbladder,32820,2016,F,60-64,2186-5,2131-1,21080,3,0
-1,889249,"Wichita, KS",2008,Female,45-49 years,Hispanic,Other Races and Unknown combined,Gallbladder,48620,2008,F,45-49,2135-2,2131-1,21080,3,0
-2,393265,"Knoxville, TN",2010,Female,75-79 years,Unknown or Missing,American Indian or Alaska Native,Gallbladder,28940,2010,F,75-79,UNK,1002-5,21080,3,0
-3,223326,"Dayton-Kettering, OH",2021,Female,70-74 years,Non-Hispanic,Asian or Pacific Islander,Gallbladder,19430,2021,F,70-74,2186-5,A-PI,21080,3,0
-4,157309,"Chattanooga, TN-GA",2021,Male,85+ years,Hispanic,Other Races and Unknown combined,Gallbladder,16860,2021,M,85+,2135-2,2131-1,21080,3,0
