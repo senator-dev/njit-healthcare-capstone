@@ -1,4 +1,10 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC Elmer Fudge
+# MAGIC
+
+# COMMAND ----------
+
 import pandas as pd
 import geopandas as gpd
 from sklearn.preprocessing import LabelEncoder
