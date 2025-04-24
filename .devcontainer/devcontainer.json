@@ -1,6 +1,12 @@
 {
-    "image": "scraper-image",
-    "containerEnv": {},
+    "name": "Capstone",
+    "image": "capstone-image",
+    "mounts": [
+        "source=D:\\data,target=/workspaces/chris/data,type=bind"
+    ],
+    "runArgs": [
+        "--gpus", "all"
+    ],
     "customizations": {
         "vscode": {
             "extensions": [
@@ -11,9 +17,9 @@
                 "ms-toolsai.jupyter-renderers",
                 "ms-toolsai.vscode-jupyter-slideshow",
                 "ms-python.python",
-                "ms-python.debugpy"
+                "ms-python.debugpy",
+                "ms-azuretools.vscode-docker"
             ]
         }
     }
-    // "extensions": []
 }
